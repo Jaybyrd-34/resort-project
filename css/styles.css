@@ -1,5 +1,5 @@
 img {
-  display: inline-block;
+  display: block;
   width: 50%;
   height: auto;
   margin-left: auto;
@@ -7,20 +7,33 @@ img {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   color:darkblue;
-  word-spacing: 8px;
+  word-spacing: 4px;
   letter-spacing: 2px;
   
 }
 
 body {
   text-align: center;
-  background-color: darkcyan;
+  background-image: url(https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=width:2400,fit:crop/output=quality:70/compress/https://process.fs.grailed.com/NuwT7nlHSpuIPozjKXIc);
+
 }
 
+.wrapper {
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: grey;
+}
+
+
 p {
-  font-size: 20px;
+  font-size: 25px;
+  color: black;
+  font-family: 'Special Elite', cursive;
 }
 
 ul {
@@ -42,11 +55,18 @@ ul {
 .container {
   text-align: center;
   padding: 10px 20px;
+  
+}
+.container p {
+  color: darkblue;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .topnav {
-  background-color: black;
+  background-color: #4F814E;
   overflow: hidden;
+  padding: 50px 50px;
 }
 
 .topnav a {
@@ -55,7 +75,7 @@ ul {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 
 .topnav a.active{
@@ -67,6 +87,6 @@ ul {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
   padding: 20px 25px;
 }
