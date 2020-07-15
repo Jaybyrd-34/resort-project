@@ -50,6 +50,7 @@ ul {
 .container {
   text-align: center;
   padding: 10px 20px;
+  color: darkblue;
 }
 
 .topnav {
@@ -77,4 +78,19 @@ ul {
   text-align: center;
   font-size: 20px;
   padding: 20px 25px;
+}
+
+.right {
+  float: right;
+  width:33%;
+}
+
+.left {
+  float: left;
+  width: 33%;
+}
+
+.link  {
+  font-size: 40px;
+  color: red;
 }
